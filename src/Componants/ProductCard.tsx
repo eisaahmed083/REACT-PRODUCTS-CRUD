@@ -7,7 +7,12 @@ interface Iprops {
 }
 
 
+
+
 export default function ProductCard({ product }: Iprops) {
+
+
+
   return (
     <div className="border rounded-md p-2 flex flex-col gap-2">
       <Image
@@ -34,13 +39,15 @@ export default function ProductCard({ product }: Iprops) {
         />
       </div>
       <div className="flex justify-between items-center space-x-2 mt-5">
-        <Button ButtonColor="blue" ButtonColorHover="blue"
+        <Button ButtonColor="bg-blue-600" 
+        
         >
           EDIT
         </Button>
-        <Button ButtonColor="red" ButtonColorHover="red">
+        <Button ButtonColor="bg-red-600">
           DELETE
         </Button>
+        
 
       </div>
     </div>

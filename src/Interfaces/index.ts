@@ -10,3 +10,15 @@ export interface IProduct {
     image: string;
   };
 }
+
+
+type FormFieldName = "title" | "description" | "image" | "price";
+
+export interface IFormInput {
+  id: string;
+  name: FormFieldName;
+  label: string;
+  type: string;
+}
+
+

@@ -1,10 +1,10 @@
-import { IProduct } from "../Interfaces/index";
+import { IProduct,IFormInput } from "../Interfaces/index";
 
 export const products: IProduct[] = [
   {
     id: "1",
     name: "Ferrari SF90 Stradale",
-    description: "lorem ipsum dolor sit amet. One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.One of the most powerful supercars in the world.",
+    description: "lorem ipsum dolor sit amet. One of the ",
     price: "$500,000",
     image:
       "https://car-images.bauersecure.com/wp-images/3695/ferrari-sf90-stradale.jpg",
@@ -226,4 +226,47 @@ export const products: IProduct[] = [
         "https://car-images.bauersecure.com/wp-images/3695/ferrari-sf90-stradale.jpg",
     },
   },
+];
+
+export const formInputs: IFormInput[] = [
+  {
+    id: "title",
+    name: "title",
+    label: "Title",
+    type: "text",
+  },
+  {
+    id: "description",
+    name: "description",
+    label: "Description",
+    type: "text",
+  },
+  {
+    id: "image",
+    name: "image",
+    label: "Image",
+    type: "text",
+  },
+  {
+    id: "price",
+    name: "price",
+    label: "Price",
+    type: "text",
+  },
+
+];
+
+
+export const colors:string[] = [
+  "#000000", 
+  "#FFFFFF", 
+  "#FF0000",  
+  "#00FF00", 
+  "#0000FF", 
+  "#FFFF00", 
+  "#FFA500", 
+  "#800080", 
+  "#00FFFF", 
+  "#FFC0CB", 
+  
 ];
